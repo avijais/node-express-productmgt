@@ -1,0 +1,12 @@
+1.	sudo -i -u postgres
+		login using postgres user
+		
+		ask for password : tech
+
+2.	psql
+		login in postgres
+
+		ask for password : tech
+
+3.	\l or \list
+		list all db
