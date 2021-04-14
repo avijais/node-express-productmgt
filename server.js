@@ -4,4 +4,14 @@ var express = require('express')
 
 app.listen(port);
 
+app.get("/", async (req, res) => {
+	try {
+		res.send({
+			"message" : "running project"
+		})
+	} catch(error) {
+		res.status(500)
+	}
+})
+
 console.log('Api server started on : ', port);
